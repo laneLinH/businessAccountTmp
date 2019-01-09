@@ -1,0 +1,15 @@
+
+@mixin left(){
+  float: left;
+}
+@mixin right(){
+  float: right;
+}
+
+@mixin clearFix(){
+  &:before,&:after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,35 @@
+
+.module-chunk{
+  .el-menu--inline{
+    border-top: 1px solid #dddddd;
+  }
+  .el-submenu__title{
+    padding: 10px 15px;
+    background: #f5f5f5;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    cursor: pointer;
+    height: auto;
+    line-height: inherit;
+  }
+  .sub-sidenav.is-active{
+    background: #58bceb;
+    a{
+      color: white;
+    }
+  }
+  .sub-sidenav{
+    padding:0!important;
+    cursor: pointer;
+    height: auto;
+    line-height: inherit;
+    min-width: auto;
+
+    &:hover{
+      background: #58bceb;
+      a{
+        color: white;
+      }
+    }
+  }
+}
